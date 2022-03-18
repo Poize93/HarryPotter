@@ -6,7 +6,7 @@ async function getData(){
   
 //    console.log("fething data")
     try{
-        const out= await fetch("http://hp-api.herokuapp.com/api/characters")
+        const out= await fetch("https://hp-api.herokuapp.com/api/characters")
         const result=await out.json();
         
         console.log(result[0] , result[1])
